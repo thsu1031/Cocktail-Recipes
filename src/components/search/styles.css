@@ -1,0 +1,41 @@
+.search {
+  position: relative;
+  display: flex;
+ 
+}
+
+.searchTerm {
+  width: 70rem;
+  border: 3px solid #67e76c;
+  border-right: none;
+  padding: 10px;
+  height: 36px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: black;
+}
+
+.searchTerm:focus{
+  color: black;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #67e76c;
+  background: #67e76c;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+@media screen and (max-width:1450px) {
+  .searchTerm {
+    width: 52.7rem;
+  } 
+  .wrap {
+   padding-left: 1rem;
+  }
+}
